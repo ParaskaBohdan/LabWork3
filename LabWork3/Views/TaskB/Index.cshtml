@@ -1,0 +1,50 @@
+﻿@model List<(Student, double)>
+@{
+    ViewBag.Title = "Вхід";
+    Layout = "_Layout";
+}
+
+<h4>4 студенти з найбільшим рейтингом</h4>
+
+<table class="table" style="margin-top: 15px">
+    <thead class="bg-warning bg-opacity-25">
+        <tr>
+            <th>Код</th>
+            <th>
+                Прізвище
+            </th>
+            <th>
+                Спеціальність
+            </th>
+            <th>
+                Середній рейтинг
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @{
+            var i = 0;
+
+            foreach (var item in Model)
+            {
+                i++;
+                <tr class="@(i % 2 == 1 ? "bg-warning bg-opacity-10" : "")">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item1.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item1.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item1.Group)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item2)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+

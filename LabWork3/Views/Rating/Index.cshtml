@@ -1,0 +1,49 @@
+﻿@model List<(string, Rating)>
+@{
+    ViewBag.Title = "Вхід";
+    Layout = "_Layout";
+}
+
+<h4>Список студентів</h4>
+
+<table class="table" style="margin-top: 15px">
+    <thead class="bg-warning bg-opacity-25">
+        <tr>
+            <th>Прізвище</th>
+            <th>
+                Дисципліна
+            </th>
+            <th>
+                Форма Екзамену
+            </th>
+            <th>
+                Оцінка
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @{
+            var i = 0;
+
+            foreach (var item in Model)
+            {
+                i++;
+                <tr class="@(i % 2 == 1 ? "bg-warning bg-opacity-10" : "")">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item1)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item2.Lesson)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item2.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Item2.Points)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

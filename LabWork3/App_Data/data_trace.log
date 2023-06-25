@@ -1,0 +1,1005 @@
+Started at 12.04.2023 15:11:16:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+Started at 12.04.2023 15:25:00:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    15:25:09: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    15:25:09: ./App_Data\users.txt load finished
+    15:25:09: 2 users loaded
+    15:25:09: champi successfully authorized
+    15:25:14: ./App_Data\Students.csv load started
+    15:25:14: ./App_Data\Students.csv load finished
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Views_Students_Index.ExecuteAsync() in C:\Users\maste\source\repos\LabWork3\LabWork3\Views\Students\Index.cshtml:line 26
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+Started at 12.04.2023 15:26:33:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    15:26:39: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    15:26:40: ./App_Data\users.txt load finished
+    15:26:40: 2 users loaded
+    15:26:40: champi successfully authorized
+    15:26:42: ./App_Data\Students.csv load started
+    15:26:42: ./App_Data\Students.csv load finished
+Started at 12.04.2023 15:28:06:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    15:28:11: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    15:28:11: ./App_Data\users.txt load finished
+    15:28:11: 2 users loaded
+    15:28:11: champi successfully authorized
+    15:28:13: ./App_Data\Students.csv load started
+    15:28:13: ./App_Data\Students.csv load finished
+Started at 12.04.2023 15:35:43:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    15:35:47: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    15:35:48: ./App_Data\users.txt load finished
+    15:35:48: 2 users loaded
+    15:35:48: champi successfully authorized
+    15:35:50: ./App_Data\Students.csv load started
+    15:35:50: ./App_Data\Students.csv load finished
+Started at 12.04.2023 15:36:49:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    15:36:54: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    15:36:55: ./App_Data\users.txt load finished
+    15:36:55: 2 users loaded
+    15:36:55: champi successfully authorized
+    15:36:57: ./App_Data\Students.csv load started
+    15:36:57: ./App_Data\Students.csv load finished
+Started at 12.04.2023 16:35:30:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    16:35:44: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    16:35:44: ./App_Data\users.txt load finished
+    16:35:44: 2 users loaded
+    16:35:44: champi successfully authorized
+    16:35:47: ./App_Data\Students.csv load started
+    16:35:47: ./App_Data\Students.csv load finished
+Started at 12.04.2023 16:42:11:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    16:42:20: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    16:42:20: ./App_Data\users.txt load finished
+    16:42:20: 2 users loaded
+    16:42:20: champi successfully authorized
+    16:42:27: ./App_Data\Students.csv load started
+    16:42:27: ./App_Data\Students.csv load finished
+Started at 12.04.2023 16:43:30:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    16:44:09: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    16:44:10: ./App_Data\users.txt load finished
+    16:44:10: 2 users loaded
+    16:44:10: champi successfully authorized
+    16:44:13: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #1
+    ./App_Data\Rating.csv: inconsistent data in line #2
+    ./App_Data\Rating.csv: inconsistent data in line #3
+    ./App_Data\Rating.csv: inconsistent data in line #4
+    ./App_Data\Rating.csv: inconsistent data in line #5
+    ./App_Data\Rating.csv: inconsistent data in line #6
+    ./App_Data\Rating.csv: inconsistent data in line #7
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #9
+    ./App_Data\Rating.csv: inconsistent data in line #10
+    ./App_Data\Rating.csv: inconsistent data in line #11
+    ./App_Data\Rating.csv: inconsistent data in line #12
+    ./App_Data\Rating.csv: inconsistent data in line #13
+    ./App_Data\Rating.csv: inconsistent data in line #14
+    ./App_Data\Rating.csv: inconsistent data in line #15
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    ./App_Data\Rating.csv: inconsistent data in line #17
+    ./App_Data\Rating.csv: inconsistent data in line #18
+    ./App_Data\Rating.csv: inconsistent data in line #19
+    ./App_Data\Rating.csv: inconsistent data in line #20
+    ./App_Data\Rating.csv: inconsistent data in line #21
+    ./App_Data\Rating.csv: inconsistent data in line #22
+    ./App_Data\Rating.csv: inconsistent data in line #23
+    16:44:14: ./App_Data\Rating.csv load finished
+Started at 12.04.2023 17:16:21:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    17:16:26: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    17:16:26: ./App_Data\users.txt load finished
+    17:16:26: 2 users loaded
+    17:16:26: champi successfully authorized
+    17:16:29: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    17:16:29: ./App_Data\Rating.csv load finished
+Started at 12.04.2023 17:17:40:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    17:17:44: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    17:17:45: ./App_Data\users.txt load finished
+    17:17:45: 2 users loaded
+    17:17:45: champi successfully authorized
+    17:17:48: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    17:17:48: ./App_Data\Rating.csv load finished
+Started at 12.04.2023 19:43:37:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    19:43:44: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    19:43:44: ./App_Data\users.txt load finished
+    19:43:44: 2 users loaded
+    19:43:44: champi successfully authorized
+    19:43:46: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    19:43:46: ./App_Data\Rating.csv load finished
+    19:43:46: ./App_Data\Students.csv load started
+    19:43:46: ./App_Data\Students.csv load finished
+Started at 12.04.2023 19:44:23:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    19:44:28: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    19:44:28: ./App_Data\users.txt load finished
+    19:44:28: 2 users loaded
+    19:44:28: champi successfully authorized
+    19:44:30: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    19:44:30: ./App_Data\Rating.csv load finished
+    19:44:30: ./App_Data\Students.csv load started
+    19:44:30: ./App_Data\Students.csv load finished
+Started at 12.04.2023 19:46:19:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    19:46:24: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    19:46:24: ./App_Data\users.txt load finished
+    19:46:24: 2 users loaded
+    19:46:24: champi successfully authorized
+    19:46:26: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    19:46:26: ./App_Data\Rating.csv load finished
+    19:46:26: ./App_Data\Students.csv load started
+    19:46:26: ./App_Data\Students.csv load finished
+Started at 12.04.2023 19:51:59:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    19:52:04: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    19:52:04: ./App_Data\users.txt load finished
+    19:52:04: 2 users loaded
+    19:52:04: champi successfully authorized
+    19:52:06: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    19:52:07: ./App_Data\Rating.csv load finished
+    19:52:07: ./App_Data\Students.csv load started
+    19:52:07: ./App_Data\Students.csv load finished
+Started at 12.04.2023 19:55:34:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    19:55:38: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    19:55:38: ./App_Data\users.txt load finished
+    19:55:38: 2 users loaded
+    19:55:38: champi successfully authorized
+    19:55:40: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    19:55:40: ./App_Data\Rating.csv load finished
+    19:55:40: ./App_Data\Students.csv load started
+    19:55:40: ./App_Data\Students.csv load finished
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[System.ValueTuple`2[LabWork3.Models.Student,System.Double]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[System.ValueTuple`2[LabWork3.Models.Student,System.Int32]]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method41(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+Started at 12.04.2023 19:59:07:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    19:59:12: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    19:59:12: ./App_Data\users.txt load finished
+    19:59:12: 2 users loaded
+    19:59:12: champi successfully authorized
+    19:59:14: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    19:59:14: ./App_Data\Rating.csv load finished
+    19:59:14: ./App_Data\Students.csv load started
+    19:59:14: ./App_Data\Students.csv load finished
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[System.ValueTuple`2[LabWork3.Models.Student,System.Double]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[System.ValueTuple`2[LabWork3.Models.Student,System.Int32]]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method41(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+Started at 12.04.2023 20:00:01:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    20:00:05: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    20:00:05: ./App_Data\users.txt load finished
+    20:00:05: 2 users loaded
+    20:00:05: champi successfully authorized
+    20:00:10: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    20:00:10: ./App_Data\Rating.csv load finished
+    20:00:10: ./App_Data\Students.csv load started
+    20:00:10: ./App_Data\Students.csv load finished
+Started at 12.04.2023 20:15:50:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    20:16:10: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    20:16:10: ./App_Data\users.txt load finished
+    20:16:10: 2 users loaded
+    20:16:10: champi successfully authorized
+    20:16:13: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    20:16:13: ./App_Data\Rating.csv load finished
+    20:16:13: ./App_Data\Students.csv load started
+    20:16:13: ./App_Data\Students.csv load finished
+Started at 12.04.2023 20:21:49:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    20:21:55: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    20:21:55: ./App_Data\users.txt load finished
+    20:21:55: 2 users loaded
+    20:21:55: champi successfully authorized
+    20:21:58: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    20:21:58: ./App_Data\Rating.csv load finished
+    20:21:58: ./App_Data\Students.csv load started
+    20:21:58: ./App_Data\Students.csv load finished
+Started at 12.04.2023 20:23:13:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    20:23:17: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    20:23:17: ./App_Data\users.txt load finished
+    20:23:17: 2 users loaded
+    20:23:17: champi successfully authorized
+    20:23:19: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    20:23:19: ./App_Data\Rating.csv load finished
+    20:23:19: ./App_Data\Students.csv load started
+    20:23:19: ./App_Data\Students.csv load finished
+Started at 12.04.2023 20:45:27:
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    20:45:32: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    20:45:32: ./App_Data\users.txt load finished
+    20:45:32: 2 users loaded
+    20:45:32: champi successfully authorized
+    20:45:35: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    20:45:35: ./App_Data\Rating.csv load finished
+    20:45:35: ./App_Data\Students.csv load started
+    20:45:35: ./App_Data\Students.csv load finished
+Started at 13.04.2023 0:24:28:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    00:24:39: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    00:24:39: ./App_Data\users.txt load finished
+    00:24:39: 2 users loaded
+    00:24:39: champi successfully authorized
+    00:24:43: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    00:24:43: ./App_Data\Rating.csv load finished
+    00:24:43: ./App_Data\Students.csv load started
+    00:24:43: ./App_Data\Students.csv load finished
+Started at 13.04.2023 0:26:19:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    00:26:25: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    00:26:26: ./App_Data\users.txt load finished
+    00:26:26: 2 users loaded
+    00:26:26: champi successfully authorized
+    00:26:28: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    00:26:28: ./App_Data\Rating.csv load finished
+    00:26:36: ./App_Data\Students.csv load started
+    00:26:36: ./App_Data\Students.csv load finished
+Started at 13.04.2023 13:23:55:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    13:24:05: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    13:24:05: ./App_Data\users.txt load finished
+    13:24:05: 2 users loaded
+    13:24:05: champi successfully authorized
+    13:24:09: ./App_Data\Students.csv load started
+    13:24:09: ./App_Data\Students.csv load finished
+    13:24:12: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    13:24:12: ./App_Data\Rating.csv load finished
+Started at 13.04.2023 13:42:40:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    Microsoft.AspNetCore.Session.SessionMiddleware: Warning: Error unprotecting the session cookie.
+
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+    13:42:46: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    13:42:46: ./App_Data\users.txt load finished
+    13:42:46: 2 users loaded
+    13:42:46: champi successfully authorized
+    13:42:49: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    13:42:49: ./App_Data\Rating.csv load finished
+    13:42:49: ./App_Data\Students.csv load started
+    13:42:49: ./App_Data\Students.csv load finished
+Started at 13.04.2023 13:48:55:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+Started at 13.04.2023 13:49:15:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    13:49:25: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    13:49:25: ./App_Data\users.txt load finished
+    13:49:25: 2 users loaded
+    13:49:25: champi successfully authorized
+    13:49:31: ./App_Data\Students.csv load started
+    13:49:31: ./App_Data\Students.csv load finished
+    13:49:33: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    13:49:33: ./App_Data\Rating.csv load finished
+Started at 13.04.2023 13:56:03:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    13:56:09: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    13:56:09: ./App_Data\users.txt load finished
+    13:56:09: 2 users loaded
+    13:56:09: champi successfully authorized
+    13:56:13: ./App_Data\Students.csv load started
+    13:56:13: ./App_Data\Students.csv load finished
+    13:56:16: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    13:56:16: ./App_Data\Rating.csv load finished
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.InvalidOperationException: Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression[TModel,TResult](Expression`1 expression, ViewDataDictionary`1 viewData, IModelMetadataProvider metadataProvider)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider.CreateModelExpression[TModel,TValue](ViewDataDictionary`1 viewData, Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor[TResult](Expression`1 expression, String templateName, String htmlFieldName, Object additionalViewData)
+   at Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor[TModel,TResult](IHtmlHelper`1 htmlHelper, Expression`1 expression)
+   at AspNetCoreGeneratedDocument.Views_TaskB_Index.ExecuteAsync() in C:\Users\maste\source\repos\LabWork3\LabWork3\Views\TaskB\Index.cshtml:line 43
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.InvalidOperationException: Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression[TModel,TResult](Expression`1 expression, ViewDataDictionary`1 viewData, IModelMetadataProvider metadataProvider)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider.CreateModelExpression[TModel,TValue](ViewDataDictionary`1 viewData, Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor[TResult](Expression`1 expression, String templateName, String htmlFieldName, Object additionalViewData)
+   at Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor[TModel,TResult](IHtmlHelper`1 htmlHelper, Expression`1 expression)
+   at AspNetCoreGeneratedDocument.Views_TaskB_Index.ExecuteAsync() in C:\Users\maste\source\repos\LabWork3\LabWork3\Views\TaskB\Index.cshtml:line 43
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+Started at 13.04.2023 13:59:51:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    13:59:58: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    13:59:58: ./App_Data\users.txt load finished
+    13:59:58: 2 users loaded
+    13:59:58: champi successfully authorized
+    14:00:01: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    14:00:01: ./App_Data\Rating.csv load finished
+    14:00:01: ./App_Data\Students.csv load started
+    14:00:01: ./App_Data\Students.csv load finished
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.InvalidOperationException: Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression[TModel,TResult](Expression`1 expression, ViewDataDictionary`1 viewData, IModelMetadataProvider metadataProvider)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider.CreateModelExpression[TModel,TValue](ViewDataDictionary`1 viewData, Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor[TResult](Expression`1 expression, String templateName, String htmlFieldName, Object additionalViewData)
+   at Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor[TModel,TResult](IHtmlHelper`1 htmlHelper, Expression`1 expression)
+   at AspNetCoreGeneratedDocument.Views_TaskB_Index.ExecuteAsync() in C:\Users\maste\source\repos\LabWork3\LabWork3\Views\TaskB\Index.cshtml:line 43
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+Started at 13.04.2023 14:01:10:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    14:01:16: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    14:01:16: ./App_Data\users.txt load finished
+    14:01:16: 2 users loaded
+    14:01:16: champi successfully authorized
+    14:01:18: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    14:01:18: ./App_Data\Rating.csv load finished
+    14:01:18: ./App_Data\Students.csv load started
+    14:01:18: ./App_Data\Students.csv load finished
+Started at 13.04.2023 14:04:03:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    14:04:08: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    14:04:08: ./App_Data\users.txt load finished
+    14:04:08: 2 users loaded
+    14:04:08: champi successfully authorized
+    14:04:10: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    14:04:11: ./App_Data\Rating.csv load finished
+    14:04:11: ./App_Data\Students.csv load started
+    14:04:11: ./App_Data\Students.csv load finished
+    Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: Error: An unhandled exception has occurred while executing the request.
+
+System.InvalidOperationException: Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression[TModel,TResult](Expression`1 expression, ViewDataDictionary`1 viewData, IModelMetadataProvider metadataProvider)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExpressionProvider.CreateModelExpression[TModel,TValue](ViewDataDictionary`1 viewData, Expression`1 expression)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor[TResult](Expression`1 expression, String templateName, String htmlFieldName, Object additionalViewData)
+   at Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor[TModel,TResult](IHtmlHelper`1 htmlHelper, Expression`1 expression)
+   at AspNetCoreGeneratedDocument.Views_TaskB_Index.ExecuteAsync() in C:\Users\maste\source\repos\LabWork3\LabWork3\Views\TaskB\Index.cshtml:line 43
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+Started at 13.04.2023 14:04:43:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    14:04:49: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    14:04:50: ./App_Data\users.txt load finished
+    14:04:50: 2 users loaded
+    14:04:50: champi successfully authorized
+    14:04:55: ./App_Data\Students.csv load started
+    14:04:55: ./App_Data\Students.csv load finished
+    14:04:57: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    14:04:57: ./App_Data\Rating.csv load finished
+Started at 13.04.2023 14:05:34:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\source\repos\LabWork3\LabWork3
+    14:05:40: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    14:05:41: ./App_Data\users.txt load finished
+    14:05:41: 2 users loaded
+    14:05:41: champi successfully authorized
+    14:05:44: ./App_Data\Students.csv load started
+    14:05:44: ./App_Data\Students.csv load finished
+    14:05:46: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    14:05:46: ./App_Data\Rating.csv load finished
+Started at 13.04.2023 15:56:59:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\Desktop\LabWork3\LabWork3
+    15:57:07: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    15:57:07: ./App_Data\users.txt load finished
+    15:57:07: 2 users loaded
+    15:57:07: champi successfully authorized
+    15:57:09: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    15:57:10: ./App_Data\Rating.csv load finished
+    15:57:10: ./App_Data\Students.csv load started
+    15:57:10: ./App_Data\Students.csv load finished
+Started at 13.04.2023 16:04:20:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\Desktop\LabWork3\LabWork3
+    16:04:25: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    16:04:26: ./App_Data\users.txt load finished
+    16:04:26: 2 users loaded
+    16:04:26: champi successfully authorized
+    16:04:29: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    16:04:29: ./App_Data\Rating.csv load finished
+    16:04:29: ./App_Data\Students.csv load started
+    16:04:29: ./App_Data\Students.csv load finished
+Started at 25.06.2023 12:19:03:
+    Microsoft.Hosting.Lifetime: Information: Now listening on: https://localhost:7008
+    Microsoft.Hosting.Lifetime: Information: Now listening on: http://localhost:5144
+    Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+    Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+    Microsoft.Hosting.Lifetime: Information: Content root path: C:\Users\maste\Downloads\LabWork3\LabWork3\LabWork3
+    12:19:15: ./App_Data\users.txt load started
+    ./App_Data\users.txt: inconsistent data in line #1
+    ./App_Data\users.txt: inconsistent data in line #2
+    ./App_Data\users.txt: inconsistent data in line #3
+    ./App_Data\users.txt: inconsistent data in line #4
+    12:19:15: ./App_Data\users.txt load finished
+    12:19:15: 2 users loaded
+    12:19:15: champi successfully authorized
+    12:19:17: ./App_Data\Students.csv load started
+    12:19:17: ./App_Data\Students.csv load finished
+    12:19:28: ./App_Data\Rating.csv load started
+    ./App_Data\Rating.csv: inconsistent data in line #8
+    ./App_Data\Rating.csv: inconsistent data in line #16
+    12:19:28: ./App_Data\Rating.csv load finished
